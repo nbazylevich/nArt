@@ -1,0 +1,14 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body{
+
+	background-color: grey;
+}
+.main{
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
