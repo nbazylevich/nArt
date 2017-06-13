@@ -11,4 +11,8 @@ body{
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 2%;
+}
+#logo{
+	width: 10%;
 }
