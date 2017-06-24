@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<header>
+<header class="posRelative">
     <div id="logo">
         <img id="logo-img" src="<?php bloginfo('template_url')?>/img/logo.png" alt="Разработка сайтов">
     </div>
