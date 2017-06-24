@@ -25,6 +25,7 @@ body{
 #contacts{
 	color: white;
 	font-size: 18px;
+	position: relative;
 }
 #linkToMail{
 	color: white;
