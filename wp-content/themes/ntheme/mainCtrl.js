@@ -3,6 +3,7 @@ angular.module('myApp', [])
         $scope.clickReq = function(){
             $log.log("clickReq")
             $('#formReq').modal('show');
+            $('.wpcf7-mail-sent-ok').hide();
         };
 
         $(document).on('mailsent.wpcf7', function () {
