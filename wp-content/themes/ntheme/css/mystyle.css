@@ -73,3 +73,6 @@ footer{
 .wpcf7-mail-sent-ok{
 	display: none;
 }
+.modal-open{
+	margin-right: 0 !important;
+}
