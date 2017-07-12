@@ -42,3 +42,34 @@ footer{
 .posRelative{
 	position: relative;
 }
+.wpcf7-submit,
+.but-req-main{
+	background: linear-gradient(to bottom, #fd8c53, #ff7741);
+	border: 1px solid #ff7741;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+.but-req-main{
+	box-shadow: 5px 5px 20px 0px;
+}
+.myinput{
+	height: 25px;
+}
+.formItems{
+	margin-bottom: 10px;
+}
+.displayNone{
+	display: none;
+}
+.showMsg{
+	position: absolute;
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	left:35%;
+}
+.wpcf7-mail-sent-ok{
+	display: none;
+}
