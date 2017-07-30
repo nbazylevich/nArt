@@ -26,6 +26,11 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--Форма брифа-->
+    <div ng-if="openBrif">
+        <?php include_once 'brif.php' ?>
+    </div>
+
 <!---Footer-->
 <?php get_footer()?>
 </div>

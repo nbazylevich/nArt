@@ -1,5 +1,7 @@
 angular.module('myApp', [])
     .controller('mainCtrl', function ($scope, $log, $timeout) {
+
+        //кнопка "Отправить заявку"
         $scope.clickReq = function(){
             $log.log("clickReq")
             $('#formReq').modal('show');
@@ -15,6 +17,17 @@ angular.module('myApp', [])
             }, 3000);
         });
 
+        //кнопка "Заполнить бриф"
+        $scope.clickBrif = function(){
+            $scope.openBrif = true;
+            $('footer').css('display', 'none');
+        };
+
+        //Закрыть бриф
+        $scope.closeBrif = function(){
+            $scope.openBrif = false;
+            $('footer').css('display', 'block');
+        };
 
     });
 
