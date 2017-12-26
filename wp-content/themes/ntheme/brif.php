@@ -1,4 +1,4 @@
-<div id="brif">
+<div>
     <div class="closeBrif">
         <i class="fa fa-2x fa-close cursor"
            title="Закрыть бриф"

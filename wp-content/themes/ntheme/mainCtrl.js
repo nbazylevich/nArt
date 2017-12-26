@@ -19,13 +19,13 @@ angular.module('myApp', [])
 
         //кнопка "Заполнить бриф"
         $scope.clickBrif = function(){
-            $scope.openBrif = true;
+            $('#brif').removeClass("displayNone");
             $('footer').css('display', 'none');
         };
 
         //Закрыть бриф
         $scope.closeBrif = function(){
-            $scope.openBrif = false;
+            $('#brif').addClass("displayNone");
             $('footer').css('display', 'block');
         };
 

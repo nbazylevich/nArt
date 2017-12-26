@@ -27,7 +27,7 @@
     </div><!-- /.modal -->
 
     <!--Форма брифа-->
-    <div ng-if="openBrif">
+    <div id="brif" class="displayNone">
         <?php include_once 'brif.php' ?>
     </div>
 
